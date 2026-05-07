@@ -136,7 +136,7 @@
 	        <div class="big-hr color-1 wow zoomInUp" data-wow-delay="0.3s">
         		<div class="text-left" style="margin-right:40px;">
             		<h2>We provide first class logistics services worldwide.</h2>
-            		<p>UBUNTU CLEARING & FORWARDING LIMITED is a well-established supply chain solution's firm majoring in logistics and consultancy.</p>
+            		<p>Ubuntu Clearing & Forwarding Limited is a professional logistics and supply chain company specializing in customs clearance, freight forwarding, transportation, warehousing, and cargo handling services across East Africa.</p>
 				</div>
 	            <div><a class="btn btn-success btn-lg" href="contact.php">CONTACT US TODAY</a></div>
 	        </div>
@@ -152,7 +152,7 @@
                     		<span><i class="glyph-icon flaticon-boats4"></i>
                             </span>
                     		<h4>CLEARANCE AND FORWARDING</h4>
-	                        <p>Zeel has wide experience in handling Imports and Exports in Kenya, South Sudan and other </p>
+	                        <p>Ubuntu Clearing & Forwarding Limited has wide experience in handling Imports and Exports in Kenya, South Sudan and other </p>
 	                    </a>
 	                </div>
 	                <div class="col-sm-6 col-md-4 col-lg-4 wow zoomInUp" data-wow-delay="0.3s">
@@ -173,7 +173,7 @@
                 		<a href="goods.php">
                     		<span><i class="glyph-icon flaticon-package7"></i></span>
                     		<h4>IMPORT AND EXPORT OF GOODS</h4>
-                            <p>Zeel has wide experience in handling Imports and Exports in Kenya, South Sudan and other </p>
+                            <p>Ubuntu Clearing & Forwarding Limited has wide experience in handling Imports and Exports in Kenya, South Sudan and other </p>
 	                    </a>
 	                </div>
 	                <div class="col-sm-6 col-md-4 col-lg-4 wow zoomInUp" data-wow-delay="0.3s">
@@ -187,7 +187,7 @@
                 		<a href="supply-chain-management.php">
                     		<span><i class="glyph-icon flaticon-traffic-signal"></i></span>
                     		<h4>SUPPLY CHAIN CONSULTANCY </h4>
-                            <p> Zeel is capable of assisting reviewing procurement organizations for best practices and </p>
+                            <p> Ubuntu Clearing & Forwarding Limited is capable of assisting reviewing procurement organizations for best practices and </p>
 	                    </a>
 	                </div>
 	            </div>
@@ -355,3 +355,4 @@
 	</body>
 <meta http-equiv="content-type" content="text/html;charset=UTF-8">
 </html>
+

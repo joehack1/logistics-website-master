@@ -15,7 +15,7 @@
 			<div class="container-fluid inner-offset">
 				<div class="hgroup text-center wow zoomIn" data-wow-delay="0.3s">
 					<h2>FOR ALL YOUR LOGISTICS NEEDS</h2>
-					<h1>UBUNTU CLEARING & FORWARDING LIMITED -    Service Delivery with Diligence </h1>
+					<h1>UBUNTU CLEARING &amp; FORWARDING LIMITED - Service Delivery with Diligence</h1>
 				</div>            
 				<ul class="nav nav-tabs wow fadeIn" data-wow-delay="0.3s" id="myTab">
 					<li class="active"><a href="#tab1" data-toggle="tab">WHY CHOOSE US</a></li>
@@ -30,15 +30,10 @@
 								<img class="full-width" src="media/images/1.jpg" alt="Img">
 							</div>
 							<div class="col-sm-7">
-								<p><strong style="font-size:16px;">UBUNTU CLEARING & FORWARDING LIMITED is a well-established procurement and logistics firm set up to offer back to back supply chain solutions.</strong></p>
-								<p>The dynamic changes experienced in the supply chain industry require new ideas and approach. Efficient and effective solutions are however not realized by immediate invasions but through a combination of experience and expertise from diverse situations and skillfully tailoring them to specific environments.</p>
-                                	<p>Our vision is to offer world-class procurement and logistics services making valued and measurable With today’s organizations facing considerable challenges in their attempts to attain competitive advantage from their transport & logistics solutions, the disparity in experience, skills and support services across geographically dispersed sites can reduce operational effectiveness and increase costs.</p><p>Organization’s therefore need to have single logistics partners that can advise and manage their transport and logistics solutions on local scale thereby giving them a one stop for all the operations solutions.
-                                </p>
-                                <p>
-                                    We operate on a service and budget agreement based on client’s requirement. Our strategic services are well implemented to ensure that they are value adding hence meeting an organization` objective as opposed to logistics being a cost center. Our vision is to offer world-class procurement and logistics services making valued and measurable contribution towards and organizations performance in concert with its strategic direction and business imperative.
-                                
-                                </p>
-								
+								<p><strong style="font-size:16px;">Ubuntu Clearing &amp; Forwarding Limited is a professional logistics and supply chain company specializing in customs clearance, freight forwarding, transportation, warehousing, and cargo handling services across East Africa.</strong></p>
+								<p>We support importers, exporters, and organizations with dependable end-to-end logistics that simplify cross-border trade and cargo movement. Our team combines hands-on operational experience with compliance expertise to ensure every shipment is handled with care, speed, and accountability.</p>
+								<p>Our mission is to provide dependable, efficient, and cost-effective logistics solutions that simplify international trade and cargo movement for our clients.</p>
+								<p>Our vision is to become one of the leading and most trusted clearing and forwarding companies in East Africa through innovation, integrity, and excellent customer service.</p>
 							</div>
 						</div>
 					</div>
@@ -48,19 +43,19 @@
 								<img class="full-width" src="media/images/1.jpg" alt="Img">
 							</div>
 							<div class="col-sm-7 text-block">
-								<p><strong>UBUNTU CLEARING & FORWARDING LIMITED is a well-established procurement and logistics firm set up to offer back to back supply chain solutions. The dynamic changes experienced in the supply chain industry require new ideas and approach.</strong></p>
-								<p> UBUNTU CLEARING & FORWARDING LIMITED endeavors to provide our customers with world-class service quality; we have carefully invested our resources to the service areas that matter most to our customers, this is why we are able to provide you with the unique service.
-                                </p>
-                                <p>
-                                    UBUNTU CLEARING & FORWARDING LIMITED has employed the best staff in its logistics operation to ensure that service provided is above the industry’s best practices</p>
-                                
-								<p>
-                                    We integrate our experience of many similar challenges in a pragmatic way to ensure that the core
-                                    objective of supply chain, which is adding value to the organization, is achieved. Our services are
-                                    differentiated due to current business trends and we offer unmatched transparency when dealing with our
-                                    clients to ensure that total cost of acquisitions of any service or commodity matches the market trends.
-                                
-                                </p>
+								<p><strong>Our strengths are built around reliability, professionalism, and consistent service delivery.</strong></p>
+								<p>We provide practical logistics planning and execution through:</p>
+								<ul class="fa-ul">
+									<li><i class="fa fa-li fa-long-arrow-right"></i>Customs Clearance</li>
+									<li><i class="fa fa-li fa-long-arrow-right"></i>Freight Forwarding</li>
+									<li><i class="fa fa-li fa-long-arrow-right"></i>Import &amp; Export Documentation</li>
+									<li><i class="fa fa-li fa-long-arrow-right"></i>Air Freight Services</li>
+									<li><i class="fa fa-li fa-long-arrow-right"></i>Sea Freight Services</li>
+									<li><i class="fa fa-li fa-long-arrow-right"></i>Road Transport &amp; Haulage</li>
+									<li><i class="fa fa-li fa-long-arrow-right"></i>Warehousing &amp; Distribution</li>
+									<li><i class="fa fa-li fa-long-arrow-right"></i>Door-to-Door Delivery Services</li>
+								</ul>
+								<p>With regional operational experience and trusted partner networks, we coordinate shipments across Kenya, Uganda, Tanzania, Rwanda, Burundi, Democratic Republic of Congo (DRC), and South Sudan.</p>
 							</div>
 						</div>
 					</div>
@@ -70,48 +65,17 @@
 								<img class="full-width" src="media/images/1.jpg" alt="Img">
 							</div>
 							<div class="col-sm-7 text-block">
-								<p><strong>UBUNTU CLEARING & FORWARDING LIMITED believe in providing our clients with high quality level of service that meets the client’s requirement and also adds value to their operations. We commit ourselves to;</strong></p>
+								<p><strong>Our quality policy is anchored on customer satisfaction, regulatory compliance, and continuous improvement.</strong></p>
+								<p>Our core values guide every assignment we undertake:</p>
 								<ul class="fa-ul">
-                            <li>
-                                <i class="fa fa-li fa-long-arrow-right"></i>
-                                   Ensuring that the business is operated as required by international standards in the supply chain industry.
-                            </li>
-
-                            <li>
-                                <i class="fa fa-li fa-long-arrow-right"></i>
-                                   Enhancing our performance through continuous monitoring of operations and reviews/ 
-                                    Adopting continuous development
-
-                            </li>
-
-                            <li>
-                                <i class="fa fa-li fa-long-arrow-right"></i>
-                                   Promoting quality management systems and ensuring that implementation is achieved by management review, corrective and preventive action.
-                            </li>
-
-                            
-                        </ul>
-                                <p>
-                                    Our operations have been designed to deliver to our client’s transport logistics solutions that are carefully
-mapped to
-                                </p>
-                            <ul class="fa-ul">
-                               <li>
-                                    <i class="fa fa-li fa-long-arrow-right"></i>
-                                    Work with our clients and create strategic business value.
-                              </li>
-                              <li>
-                                    <i class="fa fa-li fa-long-arrow-right"></i>
-                                     Adhere to our client’s requirements and seek to endlessly work in collaboration with them
-                                     with determination to improve and continuously add value to their transport operations
-                                     logistics. 
-                              </li>
-                           </ul>
-                                <p>
-                                    UBUNTU CLEARING & FORWARDING LIMITED has proven experience in cost effectively and timely management of Logistics operation needs.<br>
-                                    We provide logistics support for major freighting companies. 
-
-                                </p>
+									<li><i class="fa fa-li fa-long-arrow-right"></i>Integrity</li>
+									<li><i class="fa fa-li fa-long-arrow-right"></i>Professionalism</li>
+									<li><i class="fa fa-li fa-long-arrow-right"></i>Reliability</li>
+									<li><i class="fa fa-li fa-long-arrow-right"></i>Transparency</li>
+									<li><i class="fa fa-li fa-long-arrow-right"></i>Customer Satisfaction</li>
+								</ul>
+								<p>We commit to clear communication, accurate documentation, and timely shipment handling so clients can make confident decisions throughout the logistics process.</p>
+								<p>By combining process discipline with responsive service, we deliver practical transport and supply chain support that helps businesses reduce delays, manage risk, and improve operational performance.</p>
 							</div>
 						</div>
 					</div>
@@ -154,7 +118,7 @@ mapped to
 
 			<div class="container-fluid block-content inner-offset">
 				<div class="hgroup text-center wow fadeInUp" data-wow-delay="0.3s">
-					<h1>UBUNTU CLEARING & FORWARDING LIMITED</h1>
+					<h1>UBUNTU CLEARING &amp; FORWARDING LIMITED</h1>
 					<h2>SERVICE DELIVERY WITH DILIGENCE</h2>
 				</div>
                 
@@ -168,7 +132,7 @@ mapped to
 								<p>With the help of our worldwide partners we are providing specialized services in Logistics solutions to our satisfied customers</p>
 							</div>
 							<div class="col-sm-4 col-md-4 col-lg-4">
-								<p>We provides comprehensive cargo care, cargo movement & project management</p>
+								<p>We provides comprehensive cargo care, cargo movement &amp; project management</p>
 							</div>
 						</div>
 					</div>

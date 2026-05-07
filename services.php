@@ -54,7 +54,7 @@
 							<div class="service-item col-xs-6 col-sm-4 col-md-4 col-lg-4 wow zoomIn" data-wow-delay="0.3s">
 								<img class="full-width" src="media/3-column-info/7.jpg" alt="Img">
 								<h4>IMPORTS & EXPORTS OF GOODS</h4>
-								<p> Zeel has wide experience in handling Imports and Exports in Kenya, South Sudan and other adjoining COMESA countries.</p>
+								<p> Ubuntu Clearing & Forwarding Limited has wide experience in handling Imports and Exports in Kenya, South Sudan and other adjoining COMESA countries.</p>
 								<a class="btn btn-success btn-sm" href="goods.php">READ MORE</a>
 							</div>
 							<div class="service-item col-xs-6 col-sm-4 col-md-4 col-lg-4 wow zoomIn" data-wow-delay="0.3s">
