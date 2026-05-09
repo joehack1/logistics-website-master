@@ -35,7 +35,7 @@
 							</div>
 							<div>
 								<span><i class="fa fa-clock-o"></i></span>
-								<div>Mon - Sat  8.00 - 17.00</div>
+								<div>Mon - Sat  8.00 - 18.00</div>
 							</div>
 						</div>
 						<br><br><hr><br>
@@ -55,7 +55,7 @@
 							</div>
 							<div>
 								<span><i class="fa fa-clock-o"></i></span>
-								<div>Mon - Sat  8.00 - 17.00</div>
+								<div>Mon - Sat  8.00 - 18.00</div>
 							</div>
 						</div>
 					</div>

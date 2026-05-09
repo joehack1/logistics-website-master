@@ -44,7 +44,7 @@
 </strong><br>Sifa Towers, Kilimani,Ring Road</span>
 	                            <span><i class="fa fa-phone"></i>Tel: 0745607694/0743457168/0751345293 </span>
 	                            <span><i class="fa fa-envelope"></i>info@Ubuntuclearing.co.ke </span>
-	                            <span><i class="fa fa-clock-o"></i>Mon - Sat  8.00 - 17.00</span>
+	                            <span><i class="fa fa-clock-o"></i>Mon - Sat  8.00 - 18.00</span>
 	                        </div>
 	                    </div>
 	                </div>

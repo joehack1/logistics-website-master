@@ -23,7 +23,7 @@
 	                        <div class="text-right header-padding">
 	                           
 	                            <div class="h-block"><span>EMAIL US</span>info@Ubuntuclearing.co.ke</div>
-	                            <div class="h-block"><span>WORKING HOURS</span> 8.00 - 17.00</div>
+	                            <div class="h-block"><span>WORKING HOURS</span> 8.00 - 18.00</div>
                                 <div class="h-block"><span>WORKING DAYS</span>Mon - Sat</div>
 	                            <a class="btn btn-success" href="contact.php">CONTACT US TODAY</a>
 	                        </div>
