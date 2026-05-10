@@ -16,6 +16,102 @@
 			<!-- Loader end -->
 			
 <?php include 'header.php' ?>			
+	        <style>
+	            /* Homepage UI refresh only */
+	            #owl-main-slider {
+	                border-radius: 18px;
+	                overflow: hidden;
+	                box-shadow: 0 20px 45px rgba(0, 0, 0, 0.18);
+	            }
+	            #owl-main-slider .item {
+	                position: relative;
+	            }
+	            #owl-main-slider .item:before {
+	                content: "";
+	                position: absolute;
+	                inset: 0;
+	                background: linear-gradient(110deg, rgba(0, 0, 0, 0.55) 0%, rgba(0, 0, 0, 0.15) 55%, rgba(0, 0, 0, 0.05) 100%);
+	                z-index: 1;
+	            }
+	            #owl-main-slider .slider-content {
+	                position: relative;
+	                z-index: 2;
+	                background: rgba(0, 0, 0, 0.25);
+	                border: 1px solid rgba(255, 255, 255, 0.28);
+	                border-radius: 16px;
+	                padding: 20px 22px 22px;
+	                backdrop-filter: blur(2px);
+	            }
+	            .column-info > div,
+	            .our-services > div > a,
+	            .stats > div > div,
+	            .blog-section .one-news > div,
+	            .blog-section .two-news .news-item,
+	            .partners .owl-item > div {
+	                border-radius: 14px;
+	            }
+	            .column-info > div,
+	            .stats > div > div {
+	                overflow: hidden;
+	                box-shadow: 0 12px 28px rgba(18, 32, 56, 0.12);
+	            }
+	            .column-info > div {
+	                background: #fff;
+	            }
+	            .column-info img {
+	                border-top-left-radius: 14px;
+	                border-top-right-radius: 14px;
+	            }
+	            .our-services > div > a {
+	                background: #fff;
+	                border: 1px solid #e9edf4;
+	                box-shadow: 0 10px 24px rgba(15, 30, 50, 0.08);
+	                transition: transform 0.25s ease, box-shadow 0.25s ease;
+	            }
+	            .our-services > div > a:hover {
+	                transform: translateY(-4px);
+	                box-shadow: 0 16px 30px rgba(15, 30, 50, 0.14);
+	            }
+	            .big-hr {
+	                border-radius: 16px;
+	                box-shadow: 0 16px 34px rgba(10, 24, 40, 0.14);
+	            }
+	            .btn, .btn.btn-sm, .btn.btn-lg {
+	                border-radius: 999px;
+	            }
+	            .column-info a.btn.btn-default.btn-sm,
+	            .column-info a.btn.btn-default.btn-sm:hover,
+	            .column-info a.btn.btn-default.btn-sm:focus {
+	                background: #1f7a3d;
+	                border-color: #1f7a3d;
+	                color: #ffffff;
+	            }
+	            .column-info a.btn.btn-default.btn-sm:hover,
+	            .column-info a.btn.btn-default.btn-sm:focus {
+	                background: #166130;
+	                border-color: #166130;
+	            }
+	            .partners,
+	            .blog-section,
+	            .block-content.inner-offset {
+	                border-radius: 16px;
+	            }
+	            @media screen and (max-width: 768px) {
+	                #owl-main-slider {
+	                    border-radius: 12px;
+	                }
+	                #owl-main-slider .slider-content {
+	                    padding: 14px 14px 16px;
+	                    border-radius: 12px;
+	                }
+	                .column-info > div,
+	                .our-services > div > a,
+	                .stats > div > div,
+	                .big-hr {
+	                    border-radius: 12px;
+	                }
+	            }
+	        </style>
 	        
 	        
 	        <div id="owl-main-slider" class="owl-carousel enable-owl-carousel" data-single-item="true" data-pagination="false" data-auto-play="true" data-main-slider="true" data-stop-on-hover="true">
@@ -108,21 +204,21 @@
 	        
 	        <div class="container-fluid">
         		<div class="row column-info block-content">
-            		<div class="col-sm-4 col-md-4 col-lg-4 wow fadeInLeft" data-wow-delay="3.3s">
+            		<div class="col-sm-4 col-md-4 col-lg-4 wow fadeInLeft" data-wow-delay="0.15s">
                 		<img src="media/3-column-info/1.jpg" alt="slider">
 	                    <span></span>
 	                    <h3>FAST CARGO MOVEMENT</h3>
 	                    <p>We are able to marshall resources and more required cargo from origin to the required destination within the shortest time period.</p>
 	                    <a class="btn btn-default btn-sm" href="goods.php">READ MORE</a>
 	                </div>
-	                <div class="col-sm-4 col-md-4 col-lg-4 wow fadeInUp" data-wow-delay="3.3s">
+	                <div class="col-sm-4 col-md-4 col-lg-4 wow fadeInUp" data-wow-delay="0.15s">
                 		<img src="media/3-column-info/2.jpg" alt="Img">
 	                    <span></span>
 	                    <h3>FAST AIR FREIGHT</h3>
 	                    <p> we are able to offer international coverage on air freight and also assist in interconnections of flights schedules for Transit Cargo</p>
 	                    <a class="btn btn-default btn-sm" href="air-freight.php">READ MORE</a>
 	                </div>
-	                <div class="col-sm-4 col-md-4 col-lg-4 wow fadeInRight" data-wow-delay="3.3s">
+	                <div class="col-sm-4 col-md-4 col-lg-4 wow fadeInRight" data-wow-delay="0.15s">
                 		<img src="media/3-column-info/3.jpg" alt="Img">
 	                    <span></span>
 	                    <h3>GROUND SHIPPING</h3>
@@ -133,7 +229,7 @@
 	        </div>
 	        
 	        <hr>
-	        <div class="big-hr color-1 wow zoomInUp" data-wow-delay="0.3s">
+	        <div class="big-hr color-1 wow zoomInUp" data-wow-delay="0.1s">
         		<div class="text-left" style="margin-right:40px;">
             		<h2>We provide first class logistics services worldwide.</h2>
             		<p>Ubuntu Clearing & Forwarding Limited is a professional logistics and supply chain company specializing in customs clearance, freight forwarding, transportation, warehousing, and cargo handling services across East Africa.</p>
@@ -142,12 +238,12 @@
 	        </div>
 	        
 	        <div class="container-fluid block-content">
-        		<div class="text-center hgroup wow zoomInUp" data-wow-delay="0.3s">
+        		<div class="text-center hgroup wow zoomInUp" data-wow-delay="0.1s">
             		<h1>OUR SERVICES</h1>
             		<h2>We have wide network of offices in all major locations to help you with <br> the services we offer</h2>
 	            </div>
 				<div class="row our-services">
-            		<div class="col-sm-6 col-md-4 col-lg-4 wow zoomInLeft" data-wow-delay="0.3s">
+            		<div class="col-sm-6 col-md-4 col-lg-4 wow zoomInLeft" data-wow-delay="0.1s">
                 		<a href="clearance.php">
                     		<span><i class="glyph-icon flaticon-boats4"></i>
                             </span>
@@ -155,35 +251,35 @@
 	                        <p>Ubuntu Clearing & Forwarding Limited has wide experience in handling Imports and Exports in Kenya, South Sudan and other </p>
 	                    </a>
 	                </div>
-	                <div class="col-sm-6 col-md-4 col-lg-4 wow zoomInUp" data-wow-delay="0.3s">
+	                <div class="col-sm-6 col-md-4 col-lg-4 wow zoomInUp" data-wow-delay="0.1s">
                 		<a href="road-trucking.php">
                     		<span><i class="glyph-icon flaticon-railway1"></i></span>
                     		<h4>Road Trucking</h4>
 	                        <p> The increased trade between countries has stimulated haulage by road. Goods can be carried</p>
 	                    </a>
 	                </div>
-	                <div class="col-sm-6 col-md-4 col-lg-4 wow zoomInRight" data-wow-delay="0.3s">
+	                <div class="col-sm-6 col-md-4 col-lg-4 wow zoomInRight" data-wow-delay="0.1s">
                 		<a href="air-freight.php">
                     		<span><i class="glyph-icon flaticon-flying"></i></span>
                     		<h4>INTERNATIONAL AIR FREIGHT</h4>
 	                        <p>Air Freight as a means of ferrying goods has its timely and security advantages and is the </p>
 	                    </a>
 	                </div>
-	                <div class="col-sm-6 col-md-4 col-lg-4 wow zoomInLeft" data-wow-delay="0.3s">
+	                <div class="col-sm-6 col-md-4 col-lg-4 wow zoomInLeft" data-wow-delay="0.1s">
                 		<a href="goods.php">
                     		<span><i class="glyph-icon flaticon-package7"></i></span>
                     		<h4>IMPORT AND EXPORT OF GOODS</h4>
                             <p>Ubuntu Clearing & Forwarding Limited has wide experience in handling Imports and Exports in Kenya, South Sudan and other </p>
 	                    </a>
 	                </div>
-	                <div class="col-sm-6 col-md-4 col-lg-4 wow zoomInUp" data-wow-delay="0.3s">
+	                <div class="col-sm-6 col-md-4 col-lg-4 wow zoomInUp" data-wow-delay="0.1s">
                 		<a href="warehousing.php">
                     		<span><i class="glyph-icon flaticon-garage1"></i></span>
                     		<h4>WAREHOUSING</h4>
                             <p>We offer our fleet to customers for local deliveries in times of need where no international</p>
 	                    </a>
 	                </div>
-	                <div class="col-sm-6 col-md-4 col-lg-4 wow zoomInRight" data-wow-delay="0.3s">
+	                <div class="col-sm-6 col-md-4 col-lg-4 wow zoomInRight" data-wow-delay="0.1s">
                 		<a href="supply-chain-management.php">
                     		<span><i class="glyph-icon flaticon-traffic-signal"></i></span>
                     		<h4>SUPPLY CHAIN CONSULTANCY </h4>
@@ -195,7 +291,7 @@
 	        
             	       
 	        	<div class="block-content inner-offset">
-				<div class="info-texts wow fadeIn" data-wow-delay="0.3s">
+				<div class="info-texts wow fadeIn" data-wow-delay="0.1s">
 					<div class="container-fluid">
 						<div class="row">
 							<div class="col-sm-4 col-md-4 col-lg-4">
@@ -211,28 +307,6 @@
 					</div>
 				</div>
 			</div>
-            
-	        <div class="fleet-gallery block-content bg-image inner-offset">
-        		<div class="container-fluid inner-offset">
-	                <div class="text-center hgroup wow zoomInUp" data-wow-delay="0.3s">
-	                    <h1>THE FLEETS GALLERY</h1>
-	                    <h2>we always use best & fastest fleets</h2>
-	                </div>
-	                <div id="fleet-gallery" class="owl-carousel enable-owl-carousel" data-pagination="false" data-navigation="true" data-min450="2" data-min600="2" data-min768="4">
-	                    <div class="wow rotateIn" data-wow-delay="0.3s"><img src="media/fleet-gallery/2013-07-13%2015.31.18.jpg" alt="Img"></div>
-                        <div class="wow rotateIn" data-wow-delay="0.3s"><img src="media/fleet-gallery/20150313_162848.jpg" alt="Img"></div>
-	                    <div class="wow rotateIn" data-wow-delay="0.3s"><img src="media/fleet-gallery/2013-07-13%2015.31.51.jpg" alt="Img"></div>
-                        <div class="wow rotateIn" data-wow-delay="0.3s"><img src="media/fleet-gallery/20150313_162851.jpg" alt="Img"></div>
-	                    <div class="wow rotateIn" data-wow-delay="0.3s"><img src="media/fleet-gallery/2013-07-13%2015.32.18.jpg" alt="Img"></div>
-                        <div class="wow rotateIn" data-wow-delay="0.3s"><img src="media/fleet-gallery/20150313_162855.jpg" alt="Img"></div>
-	                    <div class="wow rotateIn" data-wow-delay="0.3s"><img src="media/fleet-gallery/2013-07-13%2015.38.28.jpg" alt="Img"></div>
-                        <div class="wow rotateIn" data-wow-delay="0.3s"><img src="media/fleet-gallery/20150313_162859.jpg" alt="Img"></div>
-	                    <div class="wow rotateIn" data-wow-delay="0.3s"><img src="media/fleet-gallery/2013-07-13%2017.33.33.jpg" alt="Img"></div>
-	                    <div class="wow rotateIn" data-wow-delay="0.3s"><img src="media/fleet-gallery/2013-07-13%2015.34.05.jpg" alt="Img"></div>
-	                </div>
-    			</div>
-	        </div>
-
             
 	        <hr>
 	        
@@ -267,13 +341,13 @@
 	        
 	        <div class="block-content bg-image blog-section inner-offset">
         		<div class="container-fluid">
-            		<div class="hgroup wow fadeInLeft" data-wow-delay="0.3s">
+            		<div class="hgroup wow fadeInLeft" data-wow-delay="0.1s">
 	                    <h1>CUSTOMISED SERVICES</h1>
 	                    
 	                </div>
-	                <a class="btn btn-danger pull-right read-all-news wow fadeInRight" data-wow-delay="0.3s" href="services.php">VIEW ALL SERVICES</a>
+	                <a class="btn btn-danger pull-right read-all-news wow fadeInRight" data-wow-delay="0.1s" href="services.php">VIEW ALL SERVICES</a>
 	                <div class="row">
-                		<div class="col-sm-6 col-md-6 col-lg-6 one-news wow fadeInLeft" data-wow-delay="0.3s">
+                		<div class="col-sm-6 col-md-6 col-lg-6 one-news wow fadeInLeft" data-wow-delay="0.1s">
                     		<div style="background-image:url(media/3-column-info/2.jpg);">
                         		<div>
                             		<a href="air-freight.php"><h3>AIR FREIGHT SERVICES</h3></a>
@@ -281,7 +355,7 @@
 	                            </div>
 	                        </div>
 	                    </div>
-	                    <div class="col-sm-6 col-md-6 col-lg-6 two-news wow fadeInRight" data-wow-delay="0.3s">
+	                    <div class="col-sm-6 col-md-6 col-lg-6 two-news wow fadeInRight" data-wow-delay="0.1s">
 	                        <div class="news-item row">
 	                            <div class="col-sm-6 col-md-6 col-lg-6">
 	                                <div style="background-image:url(media/3-column-info/1.jpg);"></div>
@@ -310,18 +384,82 @@
 	        </div>
 	        
 	        <div class="container-fluid partners block-content">
-	            <div class="hgroup title-space wow fadeInLeft" data-wow-delay="0.3s">
+	            <div class="hgroup title-space wow fadeInLeft" data-wow-delay="0.1s">
 	                <h1>OUR partners</h1>
 	                <h2>PROVIDING WIDE RANGE OF TRANSPORT SERVICES AND MEANS OF TRANSPORT</h2>
 	            </div>
 	            <div id="partners" class="owl-carousel enable-owl-carousel" data-pagination="false" data-navigation="true" data-min450="2" data-min600="2" data-min768="4">
-	                <div class="wow rotateIn" data-wow-delay="0.3s"><a href="#"><img src="media/partners/1.png" alt="Img"></a></div>
-	                <div class="wow rotateIn" data-wow-delay="0.3s"><a href="#"><img src="media/partners/2.png" alt="Img"></a></div>
-	                <div class="wow rotateIn" data-wow-delay="0.3s"><a href="#"><img src="media/partners/3.png" alt="Img"></a></div>
-	                <div class="wow rotateIn" data-wow-delay="0.3s"><a href="#"><img src="media/partners/4.png" alt="Img"></a></div>
-	                <div class="wow rotateIn" data-wow-delay="0.3s"><a href="#"><img src="media/partners/1.png" alt="Img"></a></div>
-	                <div class="wow rotateIn" data-wow-delay="0.3s"><a href="#"><img src="media/partners/2.png" alt="Img"></a></div>
+	                <div class="wow rotateIn" data-wow-delay="0.1s"><a href="#"><img src="media/partners/1.png" alt="Img"></a></div>
+	                <div class="wow rotateIn" data-wow-delay="0.1s"><a href="#"><img src="media/partners/2.png" alt="Img"></a></div>
+	                <div class="wow rotateIn" data-wow-delay="0.1s"><a href="#"><img src="media/partners/3.png" alt="Img"></a></div>
+	                <div class="wow rotateIn" data-wow-delay="0.1s"><a href="#"><img src="media/partners/4.png" alt="Img"></a></div>
+	                <div class="wow rotateIn" data-wow-delay="0.1s"><a href="#"><img src="media/partners/1.png" alt="Img"></a></div>
+	                <div class="wow rotateIn" data-wow-delay="0.1s"><a href="#"><img src="media/partners/2.png" alt="Img"></a></div>
 	            </div>
+	        </div>
+
+	        <div class="container-fluid block-content" style="padding-top:20px; padding-bottom:40px;">
+	            <div class="text-center hgroup wow zoomInUp" data-wow-delay="0.1s">
+	                <h1>OUR PHOTO GALLERY</h1>
+	                <h2>Recent work highlights from our logistics operations</h2>
+	            </div>
+	            <div style="overflow:hidden; position:relative;">
+	                <style>
+	                    .home-gallery-track {
+	                        display: flex;
+	                        width: max-content;
+	                        animation: homeGalleryScroll 32s linear infinite;
+	                        will-change: transform;
+	                    }
+	                    .home-gallery-item {
+	                        width: 260px;
+	                        height: 170px;
+	                        margin: 0 10px;
+	                        border-radius: 8px;
+	                        overflow: hidden;
+	                        box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+	                        flex-shrink: 0;
+	                    }
+	                    .home-gallery-item img {
+	                        width: 100%;
+	                        height: 100%;
+	                        object-fit: cover;
+	                        transition: transform 0.4s ease;
+	                    }
+	                    .home-gallery-item:hover img {
+	                        transform: scale(1.08);
+	                    }
+	                    @keyframes homeGalleryScroll {
+	                        0% { transform: translateX(0); }
+	                        100% { transform: translateX(-50%); }
+	                    }
+	                </style>
+	                <div class="home-gallery-track">
+	                    <a class="home-gallery-item" href="gallery.php"><img src="gallery/bnjc.jpeg" alt="Gallery image"></a>
+	                    <a class="home-gallery-item" href="gallery.php"><img src="gallery/cd.jpeg" alt="Gallery image"></a>
+	                    <a class="home-gallery-item" href="gallery.php"><img src="gallery/cvbnj.jpeg" alt="Gallery image"></a>
+	                    <a class="home-gallery-item" href="gallery.php"><img src="gallery/df.jpeg" alt="Gallery image"></a>
+	                    <a class="home-gallery-item" href="gallery.php"><img src="gallery/fd.jpeg" alt="Gallery image"></a>
+	                    <a class="home-gallery-item" href="gallery.php"><img src="gallery/fef.jpeg" alt="Gallery image"></a>
+	                    <a class="home-gallery-item" href="gallery.php"><img src="gallery/h.jpeg" alt="Gallery image"></a>
+	                    <a class="home-gallery-item" href="gallery.php"><img src="gallery/kjn.jpeg" alt="Gallery image"></a>
+	                    <a class="home-gallery-item" href="gallery.php"><img src="gallery/wde.jpeg" alt="Gallery image"></a>
+	                    <a class="home-gallery-item" href="gallery.php"><img src="gallery/wsa.jpeg" alt="Gallery image"></a>
+	                    <a class="home-gallery-item" href="gallery.php"><img src="gallery/bnjc.jpeg" alt="Gallery image"></a>
+	                    <a class="home-gallery-item" href="gallery.php"><img src="gallery/cd.jpeg" alt="Gallery image"></a>
+	                    <a class="home-gallery-item" href="gallery.php"><img src="gallery/cvbnj.jpeg" alt="Gallery image"></a>
+	                    <a class="home-gallery-item" href="gallery.php"><img src="gallery/df.jpeg" alt="Gallery image"></a>
+	                    <a class="home-gallery-item" href="gallery.php"><img src="gallery/fd.jpeg" alt="Gallery image"></a>
+	                    <a class="home-gallery-item" href="gallery.php"><img src="gallery/fef.jpeg" alt="Gallery image"></a>
+	                    <a class="home-gallery-item" href="gallery.php"><img src="gallery/h.jpeg" alt="Gallery image"></a>
+	                    <a class="home-gallery-item" href="gallery.php"><img src="gallery/kjn.jpeg" alt="Gallery image"></a>
+	                    <a class="home-gallery-item" href="gallery.php"><img src="gallery/wde.jpeg" alt="Gallery image"></a>
+	                    <a class="home-gallery-item" href="gallery.php"><img src="gallery/wsa.jpeg" alt="Gallery image"></a>
+	                </div>
+	            </div>
+	            <p class="text-center" style="margin-top:25px;">
+	                <a class="btn btn-success" href="gallery.php">VIEW FULL GALLERY</a>
+	            </p>
 	        </div>
 	       
 <?php include 'footer.php' ?>			
@@ -355,4 +493,5 @@
 	</body>
 <meta http-equiv="content-type" content="text/html;charset=UTF-8">
 </html>
+
 

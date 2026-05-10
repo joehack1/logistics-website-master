@@ -69,7 +69,7 @@
 							</div>
 							<div>
 								<span><i class="fa fa-envelope"></i></span>
-								<div>info@Ubuntuclearing.co.ke</div>
+								<div>info@ubuntuclearingandforwarding.co.ke</div>
 							</div>
 						</div>
 

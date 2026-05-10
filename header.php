@@ -22,7 +22,7 @@
 	                    <div class="col-sm-offset-1 col-md-offset-1 col-lg-offset-1 col-sm-8 col-md-8 col-lg-8">
 	                        <div class="text-right header-padding">
 	                           
-	                            <div class="h-block"><span>EMAIL US</span>info@Ubuntuclearing.co.ke</div>
+	                            <div class="h-block"><span>EMAIL US</span>info@ubuntuclearingandforwarding.co.ke</div>
 	                            <div class="h-block"><span>WORKING HOURS</span> 8.00 - 18.00</div>
                                 <div class="h-block"><span>WORKING DAYS</span>Mon - Sat</div>
 	                            <a class="btn btn-success" href="contact.php">CONTACT US TODAY</a>
@@ -46,6 +46,7 @@
 								</ul>
 							</li>
 							<li><a href="about-us.php">ABOUT US</a></li>
+							<li><a href="gallery.php">GALLERY</a></li>
 							
 							<li><a href="contact.php">OUR CONTACTS</a></li>
 							<li><a class="btn_header_search" href="#"><i class="fa fa-search"></i></a></li>

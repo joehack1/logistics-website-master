@@ -2,7 +2,7 @@
 if(isset($_POST['submit'])) {
  
     // EDIT THE 2 LINES BELOW AS REQUIRED
-    $email_to = "jnrsolomon@gmail.com";
+    $email_to = "info@ubuntuclearingandforwarding.co.ke";
     $email_subject = "UBUNTU CLEARING & FORWARDING LIMITED Website Queries";
  
     function died($error) {

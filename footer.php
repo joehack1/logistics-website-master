@@ -30,6 +30,7 @@
                     		<h4>MAIN LINKS</h4>
 	                        <nav>
                         		<a href="index.php">Home</a>
+	                            <a href="gallery.php">Gallery</a>
 	                            <a href="services.php">Our Services</a>
 	                            <a href="about-us.php">About Us</a>
 	                            
@@ -43,7 +44,7 @@
 	                            <span><i class="fa fa-location-arrow"></i><strong>UBUNTU CLEARING &amp; FORWARDING LIMITED 
 </strong><br>Sifa Towers, Kilimani,Ring Road</span>
 	                            <span><i class="fa fa-phone"></i>Tel: 0745607694/0743457168/0751345293 </span>
-	                            <span><i class="fa fa-envelope"></i>info@Ubuntuclearing.co.ke </span>
+	                            <span><i class="fa fa-envelope"></i>info@ubuntuclearingandforwarding.co.ke </span>
 	                            <span><i class="fa fa-clock-o"></i>Mon - Sat  8.00 - 18.00</span>
 	                        </div>
 	                    </div>
