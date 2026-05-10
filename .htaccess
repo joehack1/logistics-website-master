@@ -1,0 +1,43 @@
+RewriteEngine On
+
+# Canonical home URL
+RewriteCond %{THE_REQUEST} \s/+index\.php[\s?] [NC]
+RewriteRule ^index\.php$ / [R=301,L]
+
+# Redirect explicit .php requests to clean URLs
+RewriteCond %{THE_REQUEST} \s/+about-us\.php[\s?] [NC]
+RewriteRule ^about-us\.php$ /about-us [R=301,L]
+RewriteCond %{THE_REQUEST} \s/+air-freight\.php[\s?] [NC]
+RewriteRule ^air-freight\.php$ /air-freight [R=301,L]
+RewriteCond %{THE_REQUEST} \s/+clearance\.php[\s?] [NC]
+RewriteRule ^clearance\.php$ /clearance [R=301,L]
+RewriteCond %{THE_REQUEST} \s/+company-profile\.php[\s?] [NC]
+RewriteRule ^company-profile\.php$ /company-profile [R=301,L]
+RewriteCond %{THE_REQUEST} \s/+contact\.php[\s?] [NC]
+RewriteRule ^contact\.php$ /contact [R=301,L]
+RewriteCond %{THE_REQUEST} \s/+gallery\.php[\s?] [NC]
+RewriteRule ^gallery\.php$ /gallery [R=301,L]
+RewriteCond %{THE_REQUEST} \s/+goods\.php[\s?] [NC]
+RewriteRule ^goods\.php$ /goods [R=301,L]
+RewriteCond %{THE_REQUEST} \s/+road-trucking\.php[\s?] [NC]
+RewriteRule ^road-trucking\.php$ /road-trucking [R=301,L]
+RewriteCond %{THE_REQUEST} \s/+services\.php[\s?] [NC]
+RewriteRule ^services\.php$ /services [R=301,L]
+RewriteCond %{THE_REQUEST} \s/+supply-chain-management\.php[\s?] [NC]
+RewriteRule ^supply-chain-management\.php$ /supply-chain-management [R=301,L]
+RewriteCond %{THE_REQUEST} \s/+warehousing\.php[\s?] [NC]
+RewriteRule ^warehousing\.php$ /warehousing [R=301,L]
+
+# Route clean URLs to PHP files
+RewriteRule ^$ index.php [L]
+RewriteRule ^about-us/?$ about-us.php [L]
+RewriteRule ^air-freight/?$ air-freight.php [L]
+RewriteRule ^clearance/?$ clearance.php [L]
+RewriteRule ^company-profile/?$ company-profile.php [L]
+RewriteRule ^contact/?$ contact.php [L]
+RewriteRule ^gallery/?$ gallery.php [L]
+RewriteRule ^goods/?$ goods.php [L]
+RewriteRule ^road-trucking/?$ road-trucking.php [L]
+RewriteRule ^services/?$ services.php [L]
+RewriteRule ^supply-chain-management/?$ supply-chain-management.php [L]
+RewriteRule ^warehousing/?$ warehousing.php [L]

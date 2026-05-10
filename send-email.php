@@ -83,7 +83,7 @@ $headers = 'From: '.$email_from."\r\n".
 <!-- include your own success html here -->
 <?php
     $response1 = "Thank you for contacting us. We will be in touch with you very soon.";
-	header("location: contact.php?response1=".$response1."");
+	header("location: /contact?response1=".$response1."");
 ?>
 
  

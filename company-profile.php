@@ -20,7 +20,7 @@
 				<div class="container-fluid">
 					<a href="#"><h1>UBUNTU CLEARING & FORWARDING LIMITED</h1></a>
 					<div class="pull-right">
-						<a href="index.php"><i class="fa fa-home fa-lg"></i></a> | <a href="company-profile.php">Company Profile</a>
+						<a href="/"><i class="fa fa-home fa-lg"></i></a> | <a href="/company-profile">Company Profile</a>
 					</div>
 				</div>
 			</div>

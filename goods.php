@@ -8,7 +8,7 @@
 				<div class="container-fluid">
 					<a href="#"><h1>IMPORTS AND EXPORTS OF GOODS</h1></a>
 					<div class="pull-right">
-						<a href="index.php"><i class="fa fa-home fa-lg"></i></a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="services.php">Our services</a>&nbsp;&nbsp;|&nbsp;&nbsp; <a href="goods.php">Imports and exports of goods</a>
+						<a href="/"><i class="fa fa-home fa-lg"></i></a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="/services">Our services</a>&nbsp;&nbsp;|&nbsp;&nbsp; <a href="/goods">Imports and exports of goods</a>
 					</div>
 				</div>
 			</div>
@@ -41,7 +41,7 @@
 									<li><i class="fa fa-li fa-long-arrow-right"></i>Warehousing &amp; Distribution</li>
 									<li><i class="fa fa-li fa-long-arrow-right"></i>Door-to-Door Delivery Services</li>
 								</ul>
-								<img src="media/images/5.jpg" class="full-width" alt="Freight and cargo handling">
+								<img src="gallery/h.jpeg" class="full-width" alt="Freight and cargo handling">
 							</div>
 						</div>
 
@@ -74,7 +74,7 @@
 						</div>
 
 						<p class="text-center">
-							<a href="contact.php" class="btn btn-danger btn-default wow zoomIn" data-wow-delay="0.3s">contact us</a>
+							<a href="/contact" class="btn btn-danger btn-default wow zoomIn" data-wow-delay="0.3s">contact us</a>
 						</p>
 					</div>
 				</div>            

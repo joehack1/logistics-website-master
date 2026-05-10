@@ -8,7 +8,7 @@
 				<div class="container-fluid">
 					<a href="#"><h1>PHOTO GALLERY</h1></a>
 					<div class="pull-right">
-						<a href="index.php"><i class="fa fa-home fa-lg"></i></a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="gallery.php">Gallery</a>
+						<a href="/"><i class="fa fa-home fa-lg"></i></a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="/gallery">Gallery</a>
 					</div>
 				</div>
 			</div>

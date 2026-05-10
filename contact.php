@@ -7,7 +7,7 @@
 				<div class="container-fluid">
 					<a href="#"><h1>OUR CONTACTS AND LOCATION</h1></a>
 					<div class="pull-right">
-						<a href=""><i class="fa fa-home fa-lg"></i></a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="contact.php">Our contacts</a>
+						<a href=""><i class="fa fa-home fa-lg"></i></a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="/contact">Our contacts</a>
 					</div>
 				</div>
 			</div>

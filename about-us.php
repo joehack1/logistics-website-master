@@ -7,7 +7,7 @@
 				<div class="container-fluid">
 					<a href="#"><h1>ABOUT US</h1></a>
 					<div class="pull-right">
-						<a href="index.php"><i class="fa fa-home fa-lg"></i></a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="about-us.php">About Us</a>
+						<a href="/"><i class="fa fa-home fa-lg"></i></a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="/about-us">About Us</a>
 					</div>
 				</div>
 			</div>
@@ -112,7 +112,7 @@
 			<div class="bg-image parallax" style="background-image:url(media/bg/4.jpg);">
 				<div class="container-fluid text-center wow fadeInUp" data-wow-delay="0.3s">
 					<h1>WE ARE DEDICATED TO PROVIDE THE BEST SERVICE <br> AT THE LOWEST POSSIBLE COST</h1>
-					<a class="btn btn-success" href="contact.php">CONTACT US</a>
+					<a class="btn btn-success" href="/contact">CONTACT US</a>
 				</div>
 			</div>
 

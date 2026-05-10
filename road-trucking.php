@@ -8,7 +8,7 @@
 				<div class="container-fluid">
 					<a href="#"><h1>ROAD TRUCKING</h1></a>
 					<div class="pull-right">
-						<a href="index.php"><i class="fa fa-home fa-lg"></i></a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="services.php">Our services</a>&nbsp;&nbsp;|&nbsp;&nbsp; <a href="road-trucking.php">Road trucking</a>
+						<a href="/"><i class="fa fa-home fa-lg"></i></a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="/services">Our services</a>&nbsp;&nbsp;|&nbsp;&nbsp; <a href="/road-trucking">Road trucking</a>
 					</div>
 				</div>
 			</div>
@@ -26,7 +26,7 @@
                                 <p>The increased trade between countries has stimulated haulage by road. Goods can be carried from door to door within East Africa and Comesa countries accessible by road from the Port of Mombasa, Kenya. </p>
                                 <p>UBUNTU CLEARING & FORWARDING LIMITED prides itself in its ability to offer efficient transport solutions using its fleet of trucks. Our trucks are fitted with a Real-time Satellite Tracking over digital maps, which allow the management to view the fleet location over the Internet based on GPS through IDEN/GSM Communication System. This device ensures that the trucks position is known all the time.</p>
 								
-								<img src="media/images/4.jpg" class="full-width" alt="Img">
+								<img src="gallery/wsa.jpeg" class="full-width" alt="Img">
 								<h4>INTERNATIONAL LOGISTICS & TRANSPORTATION</h4>
 								<p>Strategic Sourcing Procurement Modern day procurement undertaken with improved compliance can result in greater savings.</p>
                                 <p> Zeel ensures that sourcing of goods is done with utmost professionalism taken into consideration to ensure that the correct goods and services are delivered.</p>
@@ -63,14 +63,14 @@
                            
                         </ul>
 							
-								<img src="media/images/5.jpg" class="full-width" alt="Img">
+								<img src="gallery/h.jpeg" class="full-width" alt="Img">
 								<h4>TIMELY DELIVERY</h4>
 								<p>Our operations are guided by timlines as a value and we endevour to work together with the client on delivery.</p>
 								
 							</div>
 						</div>
 						<p class="text-center">
-							<a href="contact.php" class="btn btn-danger btn-default wow zoomIn" data-wow-delay="0.3s">contact us</a>
+							<a href="/contact" class="btn btn-danger btn-default wow zoomIn" data-wow-delay="0.3s">contact us</a>
 						</p>
 					</div>
 				</div>            
