@@ -18,67 +18,97 @@
 <?php include 'header.php' ?>			
 	        <style>
 	            /* Homepage UI refresh only */
-	            #this-is-top { margin-bottom: 0; }
-	            #this-is-top .topmenu { padding-top: 0; padding-bottom: 0; min-height: auto; }
-	            #this-is-top .row.header { padding-top: 0; padding-bottom: 0; }
-	            #this-is-top { margin-bottom: 0; padding: 0; }
-	            #this-is-top .topmenu { padding: 0; min-height: auto; margin: 0; border: 0; }
-	            #this-is-top .row.header { padding: 0; margin: 0; border: 0; }
+	            #this-is-top { margin-bottom: 0; padding: 0; border: none !important; background: #fff !important; }
+	            #this-is-top .topmenu { padding: 0; min-height: auto; margin: 0; border: none !important; background: #f5f5f5 !important; }
+	            #this-is-top .row.header { padding: 6px 0; margin: 0; border: none !important; background: #fff !important; }
 	            #this-is-top .header-padding { padding-top: 0; padding-bottom: 0; }
-	            #this-is-top .main-menu .navbar-nav > li > a { padding-top: 6px; padding-bottom: 6px; line-height: 18px; }
 	            #this-is-top .main-menu .navbar-nav > li > a { padding-top: 8px; padding-bottom: 8px; line-height: 18px; }
 	            #this-is-top .header img { width: 130px; height: auto; }
-	            #this-is-top .h-block { margin-top: 0; margin-bottom: 0; padding-top: 0; font-size: 11px; }
+	            
+                /* Remove all vertical separators/borders/shadows in header */
+                #this-is-top .h-block,
+                #this-is-top .topmenu a, 
+                #this-is-top .main-menu li, 
+                #this-is-top .main-menu li a,
+                #this-is-top .navbar-main,
+                #this-is-top [class*="col-"] { border: none !important; box-shadow: none !important; outline: none !important; }
+                
+                #this-is-top .h-block { margin-top: 0; margin-bottom: 0; padding-top: 0; font-size: 11px; }
 	            #this-is-top .h-block span { font-size: 9px; line-height: 1; }
 	            
-	            /* Mobile menu close button positioning */
-	            #menu-close {
-	                position: fixed;
-	                top: 10px; /* Adjust as needed */
-	                right: 10px; /* Adjust as needed */
-	                z-index: 10001; /* Ensure it's above the menu */
-	                top: 15px;
-	                right: 15px;
-	                z-index: 99999; /* Ensure it's above everything */
-	                display: none; /* Hidden by default, shown by JS when menu opens */
-	                color: #fff; /* Example color */
-	                font-size: 24px; /* Example size */
-	                padding: 5px;
-	                color: #ffffff !important;
-	                font-size: 34px;
-	                padding: 10px;
-                    line-height: 1;
-                    text-decoration: none;
-	            }
-	            /* Assuming 'main-menu' gets a class like 'active' when open */
-	            .main-menu.active + #menu-close { display: block; }
-	            /* Logic for showing X - checking common template class names */
-	            .main-menu.active + #menu-close, 
-                .main-menu.opened + #menu-close,
-                #main-menu-bg.active ~ #menu-close { display: block !important; }
-
-                /* Mobile Menu Dropdown Fixes */
+                /* FRESH MOBILE MENU RECONSTRUCTION */
                 @media (max-width: 991px) {
+                    .main-menu {
+                        position: fixed !important;
+                        top: 0 !important;
+                        left: 0 !important;
+                        width: 100% !important;
+                        height: 100vh !important;
+                        background: #000 !important; /* Full screen black overlay */
+                        z-index: 99998 !important;
+                        display: none; /* Toggle via slideDown in theme.js */
+                        padding: 80px 10% 40px !important;
+                        text-align: left !important;
+                        overflow-y: auto !important;
+                        border: none !important;
+                    }
+                    .main-menu .navbar-nav {
+                        float: none !important;
+                        margin: 0 !important;
+                        display: block !important;
+                    }
+                    .main-menu .navbar-nav > li {
+                        float: none !important;
+                        display: block !important;
+                        margin-bottom: 5px;
+                    }
+                    .main-menu .navbar-nav > li > a {
+                        color: #fff !important;
+                        font-size: 22px !important;
+                        font-weight: 600 !important;
+                        padding: 12px 0 !important;
+                        border-bottom: 1px solid #222 !important;
+                    }
                     .main-menu .navbar-nav .dropdown-menu {
-                        display: block !important; /* Keep services list visible in mobile menu */
+                        display: block !important; 
                         position: static !important;
                         float: none !important;
-                        background: rgba(255, 255, 255, 0.08) !important;
-                        border: none !important;
+                        background: transparent !important;
+                        padding-left: 20px !important;
                         box-shadow: none !important;
-                        padding: 0 0 0 20px !important;
-                        margin: 0 !important;
-                        visibility: visible !important;
-                        opacity: 1 !important;
                     }
                     .main-menu .navbar-nav .dropdown-menu li a {
-                        color: #fff !important;
-                        padding: 8px 15px !important;
-                        border: none !important;
+                        color: #999 !important;
+                        font-size: 16px !important;
+                        padding: 10px 0 !important;
                     }
-                    /* Fix vertical strips in header */
-                    .row.header { background: #fff; overflow: hidden; }
+                    /* Improved Close Button UI and Size */
+                    #menu-close {
+                        display: none;
+                        position: fixed !important;
+                        top: 20px !important;
+                        right: 20px !important;
+                        z-index: 99999 !important;
+                        color: #fff !important;
+                        background: rgba(255, 255, 255, 0.15) !important;
+                        width: 48px !important;
+                        height: 48px !important;
+                        line-height: 48px !important;
+                        text-align: center !important;
+                        border-radius: 50% !important;
+                        font-size: 24px !important;
+                        text-decoration: none !important;
+                        transition: background 0.3s ease;
+                    }
+                    #menu-close:hover { background: rgba(255, 255, 255, 0.3) !important; }
+                    /* Logic to show X when menu is active */
+                    .main-menu.active + #menu-close, .main-menu.opened + #menu-close { display: block !important; }
+
+                    /* Header layout and strip fixes */
                     #this-is-top .header img { width: 110px; }
+                    #this-is-top .container-fluid { padding: 0; }
+                    #this-is-top .row { margin: 0; }
+                    #main-menu-bg { display: none !important; } /* Hide old background helper */
                 }
 
 	            #owl-main-slider {
