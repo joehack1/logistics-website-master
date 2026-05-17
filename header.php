@@ -21,10 +21,8 @@
 	                    </div>
 	                    <div class="col-sm-offset-1 col-md-offset-1 col-lg-offset-1 col-sm-8 col-md-8 col-lg-8">
 	                        <div class="text-right header-padding">
-	                           
-	                            <div class="h-block"><span>EMAIL US</span>info@ubuntuclearingandforwarding.co.ke</div>
-	                            <div class="h-block"><span>WORKING HOURS</span> 8.00 - 18.00</div>
-                                <div class="h-block"><span>WORKING DAYS</span>Mon - Sat</div>
+	                            <div class="h-block"><span>CALL US</span>0745607694</div>
+	                            <!-- Other contact info (email, working hours, working days) removed as per request to show only one phone number -->
 	                            <a class="btn btn-success" href="/contact">CONTACT US TODAY</a>
 	                        </div>
 	                    </div>
@@ -64,4 +62,3 @@
 	                <a id="menu-close" href="#"><i class="fa fa-times"></i></a>
 	            </div>
 	        </header>
-

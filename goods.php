@@ -61,7 +61,7 @@
 						<div class="adress-details wow fadeInUp" data-wow-delay="0.3s">
 							<div>
 								<span><i class="fa fa-location-arrow"></i></span>
-								<div><strong>Ubuntu Clearing &amp; Forwarding Limited</strong><br>Nairobi / Mombasa, Kenya</div>
+								<div><strong>Ubuntu Clearing &amp; Forwarding Limited</strong><br>Panari sky center, P.o box 3722-00506, Nairobi</div>
 							</div>
 							<div>
 								<span><i class="fa fa-phone"></i></span>

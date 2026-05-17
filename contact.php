@@ -12,18 +12,17 @@
 				</div>
 			</div>
 
-			<iframe class="we-onmap wow fadeInUp" data-wow-delay="0.3s" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.807473228056!2d36.78432136429551!3d-1.2897720990592767!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f10a6630bb1c5%3A0x50ddf1cf28b5fa40!2sSifa+Towers%2C+Ring+Rd+Kilimani%2C+Nairobi%2C+Kenya!5e0!3m2!1sen!2s!4v1497946740933"></iframe>
+			<iframe class="we-onmap wow fadeInUp" data-wow-delay="0.3s" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.752329241951!2d36.85044431086088!3d-1.324467335661413!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f111867141505%3A0x86616b772c72384a!2sPanari%20Sky%20Centre!5e0!3m2!1sen!2ske!4v1715975510614!5m2!1sen!2ske"></iframe>
 
 			<div class="container-fluid block-content">
 				<div class="row main-grid">
 					<div class="col-sm-4">
 						<h4>Head Office</h4>
-						<p>Everyday is a new day for us and we work really hard to
-							satisfy our customers everywhere.</p>
+						<p>Visit us at our head office for comprehensive logistics consultations and personalized service delivery.</p>
 						<div class="adress-details wow fadeInLeft" data-wow-delay="0.3s">
 							<div>
 								<span><i class="fa fa-location-arrow"></i></span>
-								<div><strong>UBUNTU CLEARING &amp; FORWARDING LIMITED</strong><br>Sifa Towers, Kilimani,Ring Road </div>
+								<div><strong>UBUNTU CLEARING &amp; FORWARDING LIMITED</strong><br>Panari sky center, P.o box 3722-00506, Nairobi</div>
 							</div>
 							<div>
 								<span><i class="fa fa-phone"></i></span>

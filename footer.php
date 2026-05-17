@@ -41,8 +41,7 @@
                     		<h4>CONTACT INFO</h4>
 	                        Everyday is a new day for us and we work really hard to satisfy our customers everywhere.
 	                        <div class="contact-info">
-	                            <span><i class="fa fa-location-arrow"></i><strong>UBUNTU CLEARING &amp; FORWARDING LIMITED 
-</strong><br>Sifa Towers, Kilimani,Ring Road</span>
+	                            <span><i class="fa fa-location-arrow"></i><strong>UBUNTU CLEARING &amp; FORWARDING LIMITED</strong><br>Panari sky center, P.o box 3722-00506, Nairobi</span>
 	                            <span><i class="fa fa-phone"></i>Tel: 0745607694/0743457168/0751345293 </span>
 	                            <span><i class="fa fa-envelope"></i>info@ubuntuclearingandforwarding.co.ke </span>
 	                            <span><i class="fa fa-clock-o"></i>Mon - Sat  8.00 - 18.00</span>
@@ -52,4 +51,3 @@
              		<div class="copy text-right"><a id="to-top" href="#this-is-top"><i class="fa fa-chevron-up"></i></a> <a href="#"></a> &copy; 2026 UBUNTU CLEARING &amp; FORWARDING LIMITED All rights reserved.</div>
 	             </div>
 	        </footer>
-

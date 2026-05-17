@@ -18,6 +18,69 @@
 <?php include 'header.php' ?>			
 	        <style>
 	            /* Homepage UI refresh only */
+	            #this-is-top { margin-bottom: 0; }
+	            #this-is-top .topmenu { padding-top: 0; padding-bottom: 0; min-height: auto; }
+	            #this-is-top .row.header { padding-top: 0; padding-bottom: 0; }
+	            #this-is-top { margin-bottom: 0; padding: 0; }
+	            #this-is-top .topmenu { padding: 0; min-height: auto; margin: 0; border: 0; }
+	            #this-is-top .row.header { padding: 0; margin: 0; border: 0; }
+	            #this-is-top .header-padding { padding-top: 0; padding-bottom: 0; }
+	            #this-is-top .main-menu .navbar-nav > li > a { padding-top: 6px; padding-bottom: 6px; line-height: 18px; }
+	            #this-is-top .main-menu .navbar-nav > li > a { padding-top: 8px; padding-bottom: 8px; line-height: 18px; }
+	            #this-is-top .header img { width: 130px; height: auto; }
+	            #this-is-top .h-block { margin-top: 0; margin-bottom: 0; padding-top: 0; font-size: 11px; }
+	            #this-is-top .h-block span { font-size: 9px; line-height: 1; }
+	            
+	            /* Mobile menu close button positioning */
+	            #menu-close {
+	                position: fixed;
+	                top: 10px; /* Adjust as needed */
+	                right: 10px; /* Adjust as needed */
+	                z-index: 10001; /* Ensure it's above the menu */
+	                top: 15px;
+	                right: 15px;
+	                z-index: 99999; /* Ensure it's above everything */
+	                display: none; /* Hidden by default, shown by JS when menu opens */
+	                color: #fff; /* Example color */
+	                font-size: 24px; /* Example size */
+	                padding: 5px;
+	                color: #ffffff !important;
+	                font-size: 34px;
+	                padding: 10px;
+                    line-height: 1;
+                    text-decoration: none;
+	            }
+	            /* Assuming 'main-menu' gets a class like 'active' when open */
+	            .main-menu.active + #menu-close { display: block; }
+	            /* Logic for showing X - checking common template class names */
+	            .main-menu.active + #menu-close, 
+                .main-menu.opened + #menu-close,
+                #main-menu-bg.active ~ #menu-close { display: block !important; }
+
+                /* Mobile Menu Dropdown Fixes */
+                @media (max-width: 991px) {
+                    .main-menu .navbar-nav .dropdown-menu {
+                        display: block !important; /* Keep services list visible in mobile menu */
+                        position: static !important;
+                        float: none !important;
+                        background: rgba(255, 255, 255, 0.08) !important;
+                        border: none !important;
+                        box-shadow: none !important;
+                        padding: 0 0 0 20px !important;
+                        margin: 0 !important;
+                        visibility: visible !important;
+                        opacity: 1 !important;
+                    }
+                    .main-menu .navbar-nav .dropdown-menu li a {
+                        color: #fff !important;
+                        padding: 8px 15px !important;
+                        border: none !important;
+                    }
+                    /* Fix vertical strips in header */
+                    .row.header { background: #fff; overflow: hidden; }
+                    #this-is-top .header img { width: 110px; }
+                }
+
 	            #owl-main-slider {
 	                border-radius: 18px;
 	                overflow: hidden;
@@ -493,5 +556,3 @@
 	</body>
 <meta http-equiv="content-type" content="text/html;charset=UTF-8">
 </html>
-
-
