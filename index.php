@@ -135,6 +135,29 @@
 	                padding: 20px 22px 22px;
 	                backdrop-filter: blur(2px);
 	            }
+	            #owl-main-slider .slider-content .btn.btn-success {
+	                margin-top: 12px;
+	                padding: 11px 24px;
+	                border: 0;
+	                border-radius: 999px;
+	                font-weight: 700;
+	                letter-spacing: 0.4px;
+	                color: #ffffff;
+	                background: linear-gradient(135deg, #1f9b53 0%, #16763d 100%);
+	                box-shadow: 0 10px 22px rgba(10, 30, 20, 0.35);
+	                transition: transform 0.25s ease, box-shadow 0.25s ease, filter 0.25s ease;
+	            }
+	            #owl-main-slider .slider-content .btn.btn-success:hover,
+	            #owl-main-slider .slider-content .btn.btn-success:focus {
+	                color: #ffffff;
+	                transform: translateY(-2px) scale(1.03);
+	                background: linear-gradient(135deg, #20b15a 0%, #1f6fd1 100%);
+	                box-shadow: 0 0 0 3px rgba(31, 111, 209, 0.2), 0 14px 26px rgba(9, 26, 18, 0.42);
+	            }
+	            #owl-main-slider .slider-content .btn.btn-success:active {
+	                transform: translateY(-1px);
+	                box-shadow: 0 8px 16px rgba(9, 26, 18, 0.35);
+	            }
 	            .column-info > div,
 	            .our-services > div > a,
 	            .stats > div > div,
@@ -172,6 +195,16 @@
 	            .btn, .btn.btn-sm, .btn.btn-lg {
 	                border-radius: 999px;
 	            }
+	            .block-content .btn {
+	                position: relative;
+	                transform: translateZ(0);
+	                transition: transform 0.28s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.28s ease;
+	            }
+	            .block-content .btn:hover,
+	            .block-content .btn:focus {
+	                transform: translateY(-2px) scale(1.02);
+	                box-shadow: 0 10px 22px rgba(15, 30, 50, 0.2);
+	            }
 	            .column-info a.btn.btn-default.btn-sm,
 	            .column-info a.btn.btn-default.btn-sm:hover,
 	            .column-info a.btn.btn-default.btn-sm:focus {
@@ -203,6 +236,38 @@
 	                .big-hr {
 	                    border-radius: 12px;
 	                }
+	                .home-flyer-card {
+	                    border-radius: 12px;
+	                }
+	            }
+	            .home-flyer-wrap {
+	                padding-top: 10px;
+	                padding-bottom: 35px;
+	            }
+	            .home-flyer-card {
+	                background: #ffffff;
+	                border: 1px solid #e6ebf2;
+	                border-radius: 16px;
+	                box-shadow: 0 14px 28px rgba(12, 28, 44, 0.12);
+	                overflow: hidden;
+	                transition: transform 0.28s ease, box-shadow 0.28s ease;
+	            }
+	            .home-flyer-card:hover {
+	                transform: translateY(-5px);
+	                box-shadow: 0 20px 34px rgba(12, 28, 44, 0.18);
+	            }
+	            .home-flyer-card img {
+	                width: 100%;
+	                height: auto;
+	                display: block;
+	            }
+	            .home-flyer-caption {
+	                padding: 14px 18px 18px;
+	                text-align: center;
+	            }
+	            .home-flyer-caption h3 {
+	                margin: 0;
+	                font-size: 20px;
 	            }
 	        </style>
 	        
@@ -221,7 +286,7 @@
 	                                <h1>SUPPLY CHAIN SOLUTIONS</h1>
 	                            </div>
 	                        </div>
-	                        <p>Specialized,organized and complete supply chain management solutions tailored to fit your needs. From planning and analysis to quality control.<br><a class="btn btn-success" href="#">LEARN MORE</a></p>
+	                        <p>Specialized,organized and complete supply chain management solutions tailored to fit your needs. From planning and analysis to quality control.<br><a class="btn btn-success" href="/supply-chain-management">LEARN MORE</a></p>
 	                    </div>
 	                </div>
 	            </div>
@@ -238,7 +303,7 @@
 	                                <h1>CLEARANCE AND FORWARDING</h1>
 	                            </div>
 	                        </div>
-	                        <p>Customs clearance,rules and processes can be confusing in Kenya but our goal is make customs brokerage as easy as possible for you.<br><a class="btn btn-success" href="#">LEARN MORE</a></p>
+	                        <p>Customs clearance,rules and processes can be confusing in Kenya but our goal is make customs brokerage as easy as possible for you.<br><a class="btn btn-success" href="/clearance">LEARN MORE</a></p>
 	                    </div>
 	                </div>
 	            </div>
@@ -255,7 +320,7 @@
 	                                <h1 >ROAD TRUCKING</h1>
 	                            </div>
 	                        </div>
-	                        <p>We provide a reasonable yet comprehensive transportation network within East Africa and will be in a position to handle your transport needs.<br><a class="btn btn-success" href="#">LEARN MORE</a></p>
+	                        <p>We provide a reasonable yet comprehensive transportation network within East Africa and will be in a position to handle your transport needs.<br><a class="btn btn-success" href="/road-trucking">LEARN MORE</a></p>
 	                    </div>
 	                </div>
 	            </div>
@@ -272,7 +337,7 @@
 	                                <h1>AIR FREIGHT</h1>
 	                            </div>
 	                        </div>
-	                        <p>We are able to offer international coverage on air freight and also assist in interconnections of flights schedules for Transit Cargo.<br><a class="btn btn-success" href="#">LEARN MORE</a></p>
+	                        <p>We are able to offer international coverage on air freight and also assist in interconnections of flights schedules for Transit Cargo.<br><a class="btn btn-success" href="/air-freight">LEARN MORE</a></p>
 	                    </div>
 	                </div>
 	            </div>
@@ -289,7 +354,7 @@
 	                                <h1> IMPORTS AND EXPORTS OF GOODS</h1>
 	                            </div>
 	                        </div>
-	                        <p>We undertake actual clearance at the border points, land and air and ensure that regulations are followed and correct tariffs are subjected to the goods.<br><a class="btn btn-success" href="#">LEARN MORE</a></p>
+	                        <p>We undertake actual clearance at the border points, land and air and ensure that regulations are followed and correct tariffs are subjected to the goods.<br><a class="btn btn-success" href="/goods">LEARN MORE</a></p>
 	                    </div>
 	                </div>
 	            </div>
@@ -488,6 +553,23 @@
 	                <div class="wow rotateIn" data-wow-delay="0.1s"><a href="#"><img src="media/partners/4.png" alt="Img"></a></div>
 	                <div class="wow rotateIn" data-wow-delay="0.1s"><a href="#"><img src="media/partners/1.png" alt="Img"></a></div>
 	                <div class="wow rotateIn" data-wow-delay="0.1s"><a href="#"><img src="media/partners/2.png" alt="Img"></a></div>
+	            </div>
+	        </div>
+
+	        <div class="container-fluid block-content home-flyer-wrap">
+	            <div class="text-center hgroup wow fadeInUp" data-wow-delay="0.1s">
+	                <h1>LATEST FLYER</h1>
+	                <h2>Explore our featured logistics update</h2>
+	            </div>
+	            <div class="row">
+	                <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 wow zoomIn" data-wow-delay="0.12s">
+	                    <a class="home-flyer-card" href="ubuntu flyer.jpeg" target="_blank">
+	                        <img src="ubuntu flyer.jpeg" alt="Ubuntu Clearing and Forwarding flyer">
+	                        <div class="home-flyer-caption">
+	                            <h3>Open Flyer</h3>
+	                        </div>
+	                    </a>
+	                </div>
 	            </div>
 	        </div>
 

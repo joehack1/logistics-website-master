@@ -52,6 +52,54 @@
 </div>
 </div>
 </section>
+			<style>
+				.company-flyer-wrap {
+					padding: 20px 0 40px;
+				}
+				.company-flyer-card {
+					display: block;
+					background: #fff;
+					border: 1px solid #e6ebf2;
+					border-radius: 16px;
+					box-shadow: 0 14px 28px rgba(12, 28, 44, 0.12);
+					overflow: hidden;
+					transition: transform 0.28s ease, box-shadow 0.28s ease;
+				}
+				.company-flyer-card:hover {
+					transform: translateY(-5px);
+					box-shadow: 0 20px 34px rgba(12, 28, 44, 0.18);
+				}
+				.company-flyer-card img {
+					width: 100%;
+					height: auto;
+					display: block;
+				}
+				.company-flyer-caption {
+					padding: 14px 18px 18px;
+					text-align: center;
+				}
+				.company-flyer-caption h3 {
+					margin: 0;
+					font-size: 20px;
+				}
+			</style>
+
+			<div class="container-fluid company-flyer-wrap">
+				<div class="text-center hgroup">
+					<h1>COMPANY FLYER</h1>
+					<h2>View our latest flyer and service highlights</h2>
+				</div>
+				<div class="row">
+					<div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+						<a class="company-flyer-card" href="ubuntu flyer.jpeg" target="_blank">
+							<img src="ubuntu flyer.jpeg" alt="Ubuntu Clearing and Forwarding flyer">
+							<div class="company-flyer-caption">
+								<h3>Open Flyer</h3>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
 			<?php include 'footer.php' ?>
             
 		</div>
